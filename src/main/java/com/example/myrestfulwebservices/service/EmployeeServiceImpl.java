@@ -12,4 +12,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     public List<Employee> getAllEmployees() {
         return EmployeeUtil.getListOfEmployees();
     }
+
+    @Override
+    public Employee getEmployee(String employeeId) {
+        return EmployeeUtil.getEmployee(employeeId);
+    }
 }
