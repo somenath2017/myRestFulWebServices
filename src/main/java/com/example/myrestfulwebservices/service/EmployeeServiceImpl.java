@@ -17,4 +17,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Employee getEmployee(String employeeId) {
         return EmployeeUtil.getEmployee(employeeId);
     }
+
+    @Override
+    public Employee createEmployee(Employee employee) {
+        return EmployeeUtil.createEmployee(employee);
+    }
 }

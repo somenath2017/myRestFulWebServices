@@ -9,4 +9,5 @@ import java.util.List;
 public interface EmployeeService {
         List<Employee> getAllEmployees();
         Employee getEmployee(String employeeId);
+        Employee createEmployee(Employee employee);
 }
